@@ -105,6 +105,10 @@ text-decoration: underline;}
 	color: white;
 	padding: 15px;
 }
+.menu li:hover{
+	text-decoration-color: blue;
+text-decoration: underline;;
+}
 
 .menu-box{
 	display: none;
