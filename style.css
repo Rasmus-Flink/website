@@ -186,15 +186,33 @@ text-decoration: underline;}
 
 
 .center-box{
-	width: 90%;
-	padding: 20px;
+	width: 100%;
+	padding: 50px;
 	background-color:#A8CC8E;
-	border:2px solid white;
-	border-radius: 10px;
-	text-align:center;
+	border:20px solid white;
+	border-radius: 50px;
+	text-align: center;
 	color: white;
+	max-width: 1100px;
+	height: auto;
+	position: relative;
+	padding: 20px;
+	display: flex;
+	flex-direction:column;
+	align-self: flex-start;
 	}
-
+.center-box t1{
+text-align: center;	
+font-size: 30px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+margin-bottom: 10px;
+}
+.center-box t2{	
+text-align: left;
+font-size: 15px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+margin-bottom: 10px;
+}
 
 
 
