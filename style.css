@@ -12,6 +12,7 @@ nav{
 	justify-content: space-between;
 	height: 75px;
 	align-items: center;
+	border-bottom: 20px solid #A8CC8E
 }
 
 .flipped-image {
@@ -24,27 +25,74 @@ position: relative;
 margin-top: -17%; 
 height: auto;
 width: 75%;
-max-width: 100%
+max-width: 100%;
 
 	
 	
 }
 .title {
-
+z-index: 1;
 position: relative;
 margin-right:50%;
-	height:auto;
+height:auto;
 width: 75%;
-max-width: 100%
+max-width: 100%;
+
 }
 
 .R{
 	position: relative;
-	left: 10px
+	left: 10px;
 }
 
 
+.contact-box{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding: 20px;
+	margin: 0px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction:column;
+	align-self: flex-start;
+}
+.contact-content{
+	display: flex;
+	align-items: center;
+}
+.logo{
+	margin-right:20px;
+}
+.pfp{
+	margin-left:40%;
+	margin-right: 20px;
+}
 
+.contact-box p1{
+text-align: center;	
+font-size: 30px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+margin-bottom: 10px;
+}
+.contact-box p2{	
+text-align: left;
+font-size: 15px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+margin-bottom: 10px;
+}
+
+.contact-methods{
+display: flex;
+flex-direction: column;
+}
+
+
+.contact-methods a:hover {
+text-decoration-color: blue;
+text-decoration: underline;}
 
 .menu{
 	display: flex;
@@ -56,6 +104,10 @@ max-width: 100%
 .menu li{
 	color: white;
 	padding: 15px;
+}
+.menu li:hover{
+	text-decoration-color: blue;
+text-decoration: underline;;
 }
 
 .menu-box{
@@ -77,11 +129,11 @@ max-width: 100%
 }
 .menu-icon::before{
 	content: "";
-	margin-top: -8px;
+	margin-top: 8px;
 }
 .menu-icon::after{
 	content: "";
-	margin-top: 8px;
+	margin-top: -8px;
 }
 
 #menu-activate:checked + .menu-box .menu-icon::before{
@@ -113,12 +165,13 @@ max-width: 100%
 		position: absolute;
 		top: 0;
 		left: 0;
-		margin-top: 75px;
+		margin-top: 100px;
 		background-color: black;
 		flex-direction: column;
 		width: 100%;
 		justify-content: center;
 		align-items: center;
+		z-index: 10;
 	}
 	#menu-activate ~ .menu li{
 		height: 0;
@@ -136,7 +189,34 @@ max-width: 100%
 }
 
 
-
+.center-box{
+	width: 100%;
+	padding: 50px;
+	background-color:#A8CC8E;
+	border:20px solid white;
+	border-radius: 50px;
+	text-align: center;
+	color: white;
+	max-width: 1100px;
+	height: auto;
+	position: relative;
+	padding: 20px;
+	display: flex;
+	flex-direction:column;
+	align-self: flex-start;
+	}
+.center-box t1{
+text-align: center;	
+font-size: 30px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+margin-bottom: 10px;
+}
+.center-box t2{	
+text-align: left;
+font-size: 15px;
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+margin-bottom: 10px;
+}
 
 
 
